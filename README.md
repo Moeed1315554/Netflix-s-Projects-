@@ -1,16 +1,13 @@
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-yellow)
+![Python](https://img.shields.io/badge/Language-Python-blue)
+![DAX](https://img.shields.io/badge/Skills-DAX-orange)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
 # 📊 Netflix Data Analysis Dashboard
 
 ## 📌 Overview
 
-This project analyzes Netflix content data to uncover insights about movies, TV shows, genres, ratings, and country-wise distribution. The goal is to transform raw data into meaningful insights for better decision-making.
-
----
-
-## 🛠️ Tools & Technologies
-
-* Python (Pandas) – Data Cleaning
-* Power BI – Dashboard Development
-* DAX – Data Modeling & Calculations
+This project analyzes Netflix dataset to uncover insights about content distribution, genres, ratings, and country-wise trends using Python and Power BI.
 
 ---
 
@@ -22,33 +19,37 @@ This project analyzes Netflix content data to uncover insights about movies, TV 
 
 ---
 
-## 📈 Dashboard Features
+## 🛠️ Tools Used
 
-* KPI Cards: Total Movies (5688), TV Shows (2275), Avg Movie Duration, Avg TV Seasons
-* Genre Analysis: Bubble chart showing most popular genres
-* Rating Analysis: Customer ratings distribution (TV-MA, TV-14, etc.)
-* Time Analysis: Content growth trend over years
-* Country Analysis: Treemap showing top countries (USA, India, UK)
-* Filters: Type (Movie/TV Show), Month added
+* Python (Pandas)
+* Power BI
+* DAX
+
+---
+
+## 🚀 Key Highlights
+
+* Built an interactive Power BI dashboard
+* Cleaned and transformed data using Python
+* Applied DAX for key business calculations
+* Created dynamic filters for better analysis
 
 ---
 
 ## 🔍 Key Insights
 
-* Netflix has more Movies than TV Shows
-* Content growth increased significantly after 2015
-* USA contributes the highest content, followed by India and UK
-* TV-MA and TV-14 are the most common ratings
-* Drama and International genres are highly popular
+* Content increased rapidly after 2015
+* Movies are more than TV Shows
+* USA produces the highest content
+* Drama & International genres are most popular
 
 ---
 
-## 🚀 Project Highlights
+## 💼 Business Impact
 
-* End-to-end data analysis project
-* Interactive and dynamic dashboard
-* Business-focused insights generation
-* Clean and user-friendly design
+* Helps identify top-performing content
+* Supports data-driven decision-making
+* Provides country-wise performance insights
 
 ---
 
@@ -56,7 +57,5 @@ This project analyzes Netflix content data to uncover insights about movies, TV 
 
 **Md Moeed**
 📧 [mdmoeed72@gmail.com](mailto:mdmoeed72@gmail.com)
-
----
 
 ⭐ If you like this project, give it a star!
