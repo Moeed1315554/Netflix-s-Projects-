@@ -1,63 +1,54 @@
-# 📊 Netflix Data Analysis Project
+# 📊 Netflix Data Analysis Dashboard
 
 ## 📌 Overview
 
-This project analyzes Netflix dataset to uncover insights about content trends, genres, and country-wise distribution. The goal is to transform raw data into meaningful insights that support business decision-making.
+This project analyzes Netflix content data to uncover insights about movies, TV shows, genres, ratings, and country-wise distribution. The goal is to transform raw data into meaningful insights for better decision-making.
 
 ---
 
-## 🛠️ Tools Used
+## 🛠️ Tools & Technologies
 
 * Python (Pandas) – Data Cleaning
-* Power BI – Dashboard & Visualization
-* DAX – Data Analysis
+* Power BI – Dashboard Development
+* DAX – Data Modeling & Calculations
 
 ---
 
-## 🔄 Data Cleaning
+## 📊 Dashboard Preview
 
-* Handled missing values
-* Removed duplicates
-* Standardized columns
-* Converted date formats
-
----
-
-## 📊 Key DAX Measures
-
-```DAX
-Total Titles = COUNTROWS('Netflix')
-
-Total Movies = 
-CALCULATE(COUNTROWS('Netflix'), 'Netflix'[type] = "Movie")
-
-Total TV Shows = 
-CALCULATE(COUNTROWS('Netflix'), 'Netflix'[type] = "TV Show")
-
-Movies % = DIVIDE([Total Movies], [Total Titles], 0)
-
-TV Shows % = DIVIDE([Total TV Shows], [Total Titles], 0)
-```
+<p align="center">
+  <img src="dashboard.png" width="900"/>
+</p>
 
 ---
 
-## 📈 Dashboard
-   "C:\Users\USER\OneDrive\Pictures\Screenshots\Netflix's Dashboard picture .png"
+## 📈 Dashboard Features
+
+* KPI Cards: Total Movies (5688), TV Shows (2275), Avg Movie Duration, Avg TV Seasons
+* Genre Analysis: Bubble chart showing most popular genres
+* Rating Analysis: Customer ratings distribution (TV-MA, TV-14, etc.)
+* Time Analysis: Content growth trend over years
+* Country Analysis: Treemap showing top countries (USA, India, UK)
+* Filters: Type (Movie/TV Show), Month added
 
 ---
 
 ## 🔍 Key Insights
 
-* Content increased rapidly after 2015
-* Movies are higher than TV Shows
-* USA produces the most content
-* Drama & Comedy are top genres
+* Netflix has more Movies than TV Shows
+* Content growth increased significantly after 2015
+* USA contributes the highest content, followed by India and UK
+* TV-MA and TV-14 are the most common ratings
+* Drama and International genres are highly popular
 
 ---
 
-## 🚀 Conclusion
+## 🚀 Project Highlights
 
-This project demonstrates end-to-end data analysis using Python and Power BI, focusing on extracting actionable insights from raw data.
+* End-to-end data analysis project
+* Interactive and dynamic dashboard
+* Business-focused insights generation
+* Clean and user-friendly design
 
 ---
 
@@ -65,4 +56,7 @@ This project demonstrates end-to-end data analysis using Python and Power BI, fo
 
 **Md Moeed**
 📧 [mdmoeed72@gmail.com](mailto:mdmoeed72@gmail.com)
-🔗 LinkedIn | GitHub
+
+---
+
+⭐ If you like this project, give it a star!
